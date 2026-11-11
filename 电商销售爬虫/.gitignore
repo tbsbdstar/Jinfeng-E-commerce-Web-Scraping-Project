@@ -1,0 +1,7 @@
+# 敏感/本机数据，不分发
+credentials.json
+browser_profiles/
+outputs/
+logs/
+__pycache__/
+*.pyc

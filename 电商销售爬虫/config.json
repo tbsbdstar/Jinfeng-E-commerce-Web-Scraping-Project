@@ -1,0 +1,32 @@
+{
+  "output_dir": "outputs",
+  "platforms": [
+    "淘宝",
+    "抖音",
+    "拼多多",
+    "小红书"
+  ],
+  "week_start": "monday",
+  "daily_run_time": "09:00",
+  "crawl_method": "auto",
+  "notify": {
+    "toast": true,
+    "email": false
+  },
+  "wecom": {
+    "enabled": false,
+    "webhook": "",
+    "send_text": true,
+    "send_file": true
+  },
+  "email": {
+    "smtp_host": "",
+    "smtp_port": 465,
+    "sender": "",
+    "auth_code": "",
+    "to": ""
+  },
+  "_note": "output_dir=数据存储目录，唯一需要关心的路径：留空或相对则用项目内 outputs，也可填绝对路径如 D:\\电商数据。其余目录(logs/browser_profiles)自动定位、无需配置。email 先留空，以后想开邮件通知再填 SMTP。",
+  "_note_crawl_method": "取数方式：auto=接口优先,接口失效自动回退老方法(推荐,默认) | api=只用接口 | page=只用老方法(页面/日历/OCR,接口彻底不能用时改这个)。",
+  "_note_wecom": "企业微信群推送：enabled=true 开启;webhook 填群机器人地址(群设置→添加机器人→取Webhook地址);send_text/send_file 分别控制是否推文字日报周报/月表xlsx。换群改 webhook 即可。"
+}

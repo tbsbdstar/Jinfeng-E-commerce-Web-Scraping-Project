@@ -1,0 +1,18 @@
+{
+  "output_dir": "outputs",
+  "channels": ["抖音", "拼多多", "淘宝", "小红书"],
+  "channel_shop_suffix": "劲风车生活",
+  "week_start": "monday",
+  "daily_run_time": "09:00",
+  "template_file": "每周各渠道实发_实退数据_模板.xlsx",
+  "headless": true,
+  "notify": { "toast": true, "email": false },
+  "wecom": {
+    "enabled": false,
+    "webhook": "",
+    "send_text": true,
+    "send_file": true,
+    "_note": "对接企业微信群机器人：enabled改true、webhook填群机器人地址(形如 https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxx)。抓完/出周报会自动发『文字小结+Excel附件』到群。"
+  },
+  "_note": "output_dir=数据存储目录。channels=报表里的渠道前缀；channel_shop_suffix=店铺名后缀，用于匹配报表『渠道』列(如 抖音-劲风车生活)。template_file=Excel 模板(含 分类编码 sheet)，相对项目根或绝对路径。"
+}

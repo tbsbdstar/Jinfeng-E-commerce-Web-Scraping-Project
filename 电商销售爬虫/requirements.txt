@@ -1,0 +1,2 @@
+playwright>=1.62
+openpyxl>=3.1

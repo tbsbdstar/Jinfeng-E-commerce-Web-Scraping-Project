@@ -1,0 +1,18 @@
+# 账号密码、登录档案、业务数据、运行日志 —— 一律不进仓库
+credentials.json
+browser_profiles/
+outputs/
+logs/
+_dev/
+
+# 本机缓存与界面设置
+__pycache__/
+*.pyc
+采集控制台/settings.json
+采集控制台/paths.json
+
+# 修改前备份、打包产物、演示脚本
+*.bak
+*_备份_*
+*.zip
+淘宝API_demo.py
